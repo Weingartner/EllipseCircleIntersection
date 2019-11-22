@@ -1,2 +1,3 @@
 # EllipseCircleIntersection
-A dll which provides an analytic solution for ellipse circle intersection
+A dll which provides an analytic solution for ellipse circle intersection.
+Some basic tests are provided in an included spec project...
