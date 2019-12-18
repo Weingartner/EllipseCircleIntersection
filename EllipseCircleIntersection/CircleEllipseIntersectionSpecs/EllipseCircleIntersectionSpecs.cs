@@ -17,16 +17,16 @@ namespace CircleEllipseIntersectionSpecs
         {
             get
             {
-                yield return new object[] { 1, 2, 3, 4, 5, 6, 7 };
-                yield return new object[] { 0, 0, 3, 4, 5, 6, 7 };
-                yield return new object[] { 0, 0, 1, 4, 5, 6, 7 };
-                yield return new object[] { 3, 0, 1, 4, 5, 2, 7 };
-                yield return new object[] { 1, 1, 3, 1, 1, 2, 7 };
-                yield return new object[] { 5, 0, 1, 4, 5, 2, 7 };
-                yield return new object[] { 0, 6, 3, 0, 1, 2, 7 };
-                yield return new object[] { 0, 5, 3, 0, 1, 2, 7 };
-                yield return new object[] { 0, 10, 3, 0, 1, 2, 7 };
-                yield return new object[] { 0, 11, 3, 0, 1, 2, 7 };
+                //yield return new object[] { 1, 2, 3, 4, 5, 6, 7 };
+                //yield return new object[] { 0, 0, 3, 4, 5, 6, 7 };
+                //yield return new object[] { 0, 0, 1, 4, 5, 6, 7 };
+                //yield return new object[] { 3, 0, 1, 4, 5, 2, 7 };
+                //yield return new object[] { 1, 1, 3, 1, 1, 2, 7 };
+                //yield return new object[] { 5, 0, 1, 4, 5, 2, 7 };
+                //yield return new object[] { 0, 6, 3, 0, 1, 2, 7 };
+                //yield return new object[] { 0, 5, 3, 0, 1, 2, 7 };
+                //yield return new object[] { 0, 10, 3, 0, 1, 2, 7 };
+                //yield return new object[] { 0, 11, 3, 0, 1, 2, 7 };
                 yield return new object[] { 0, 12, 3, 0, 1, 2, 7 };
             }
         }

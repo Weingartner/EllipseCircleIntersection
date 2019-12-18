@@ -1,7 +1,7 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
-Reference=*\G{90D9E2C0-3F9E-33C4-B827-50F1812FEF68}#1.0#0#\\wgfilesrv\Allgemein\Kronberger Johannes\EllipseCircleIntersection\bin\Debug\EllipseCircleIntersection.tlb#EllipseCircleIntersection
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
 Form=Form1.frm
+Module=Module1; Module1.bas
 Startup="Form1"
 Command32=""
 Name="Project1"

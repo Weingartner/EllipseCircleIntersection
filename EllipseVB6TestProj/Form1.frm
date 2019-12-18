@@ -23,14 +23,25 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-Private Sub Command1_Click()
-    Dim i As EllipseCircleIntersection.EllCircInt
-    Set i = New EllipseCircleIntersection.EllCircInt
+Option Explicit
+'Dim a1 As Complex
 
-    Dim v As Variant
-    v = i.GetIntersectionPts(1, 2, 3, 4, 5, 6, 7)
-    
-    MsgBox "Pt: " & v(0) & "," & v(1)
+
+Public Sub Command1_Click()
+    Dim a1() As Double
+    'a1 = GetPoints(1, 2, 3, 4, 5, 6, 7)
+    'a1 = GetPoints(0, 0, 3, 4, 5, 6, 7)
+    'a1 = GetPoints(0, 0, 1, 4, 5, 6, 7)
+    'a1 = GetPoints(3, 0, 1, 4, 5, 2, 7)
+    'a1 = GetPoints(1, 1, 3, 1, 1, 2, 7)
+    'a1 = GetPoints(5, 0, 1, 4, 5, 2, 7)
+    'a1 = GetPoints(0, 6, 3, 0, 1, 2, 7)
+    'a1 = GetPoints(0, 5, 3, 0, 1, 2, 7)
+    'a1 = GetPoints(0, 10, 3, 0, 1, 2, 7)
+    a1 = GetPoints(0, 11, 3, 0, 1, 2, 7)
+    'a1 = GetPoints(0, 12, 3, 0, 1, 2, 7)
+    MsgBox "Pt1: " & a1(0) & "," & a1(1) & " // " & "Pt2: " & a1(2) & "," & a1(3) & " // " & "Pt3: " & a1(4) & "," & a1(5) & " // " & "Pt4: " & a1(6) & "," & a1(7)
 End Sub
+
 
 
